@@ -1,0 +1,15 @@
+.StarButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  outline: none;
+}
+
+.on {
+  color: black;
+}
+
+.off {
+  color: #ccc;
+}

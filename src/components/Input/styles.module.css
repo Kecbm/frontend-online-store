@@ -1,0 +1,28 @@
+.InputLabel {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0;
+  min-width: 36%;
+}
+
+.InputText {
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 5px;
+  display: block;
+  padding: 7px 15px;
+  transition: all 0.7s;
+  width: 70%;
+}
+
+.InputText:focus {
+  border-bottom: 2px solid #3498db;
+  outline: none;
+}
+
+.InputText:invalid {
+  border-bottom: 2px solid #e74c3c;
+  outline: none;
+}
+

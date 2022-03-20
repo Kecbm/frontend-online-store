@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.CheckoutIcon {
+  fill: #e67e22;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.CheckoutIcon:link, .CheckoutIcon:visited {
+  fill: #e67e22;
+}
+
+.CheckoutIcon:active, .CheckoutIcon:hover {
+  fill: #f1c40f;
+  transform: scale(1.2);
+}
+
+.PaymentIcon {
+  margin: 0 5px;
+  width: 50px;
+}

@@ -1,0 +1,15 @@
+.CartContainer {
+  padding: 1.6em;
+}
+
+.CartItemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.CartButton {
+  font-size: 30px;
+  left: 10px;
+  position: absolute;
+}

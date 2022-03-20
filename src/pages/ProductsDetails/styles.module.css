@@ -1,0 +1,102 @@
+.CartButton {
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+}
+
+.Header {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.Header img {
+  height: 3em;
+  margin-left: 2em;
+  width: 3em;
+}
+
+.ImgAndAttr {
+  box-sizing: content-box;
+  display: flex;
+  height: 25em;
+  justify-content: space-evenly;
+}
+
+.ImgAndAttr img {
+  margin-right: 2em;
+}
+
+.AttributesList {
+  border: 1px black solid;
+  box-sizing: border-box;
+  height: 25em;
+  margin: 0;
+  padding-top: 4em;
+  width: 54em;
+}
+
+.AttributesList ul {
+  list-style: inside;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.CartButtons {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4em 5em 5em;
+  width: 30em;
+}
+
+.CartButtons .AddButton {
+  align-items: center;
+  background: linear-gradient (
+    0deg , rgba(20, 167, 62, 1) 0%, rgba(102, 247, 113, 1) 100%
+  );
+  border: none;
+  border-radius: 20em;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  color: white;
+  display: flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 0.7em 1.4em;
+  text-align: center;
+}
+
+.CartButtons .MinusButton {
+  align-items: center;
+  background: linear-gradient(0deg, rgb(134, 3, 3) 0%, rgb(223, 36, 36) 100%);
+  border: none;
+  border-radius: 20em;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  color: white;
+  display: flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 0.7em 1.4em;
+  text-align: center;
+}
+
+.CartButtons .AddToCartButton {
+  align-items: center;
+  background: linear-gradient(0deg, rgb(3, 86, 134) 0%, rgb(25, 134, 197) 100%);
+  border: none;
+  border-radius: 20em;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  color: white;
+  display: flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 0.7em 1.4em;
+  text-align: center;
+}

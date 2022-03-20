@@ -1,0 +1,78 @@
+.TagP {
+  font-size: 30px;
+  left: 28em;
+  position: absolute;
+  text-align: center;
+  top: 10em;
+  width: 26em;
+}
+
+.ContainerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.SearchInput {
+  border-radius: 10px;
+}
+
+.MenuAndCards {
+  display: flex;
+}
+
+.MenuAndCards nav {
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.MenuAndCards nav label {
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+}
+
+.MenuAndCards nav h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.MenuAndCards main {
+  width: 80vw;
+}
+
+.Header {
+  align-items: center;
+  display: flex;
+  height: 6em;
+  justify-content: center;
+}
+
+.SearchDiv {
+  align-items: center;
+  display: flex;
+  margin-left: 8em;
+}
+
+.SearchDiv button {
+  border-radius: 10px;
+  font-size: 30px;
+  height: 1.5em;
+
+  /* position: fixed; */
+
+  /* right: 9.1em; */
+  width: 3em;
+}
+
+.SearchDiv input {
+  height: 3em;
+  width: 50em;
+}
+
+.CartButton {
+  font-size: 30px;
+  position: absolute;
+  right: 2em;
+}

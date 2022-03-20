@@ -1,0 +1,90 @@
+.CardContainer {
+  align-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  position: relative;
+  width: 350px;
+}
+
+.CardTitleContainer {
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.CardTitleContainer a {
+  color: black;
+  text-decoration: none;
+}
+
+.CardTitle {
+
+  /*  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.CardImg {
+  aspect-ratio: 1 / 1;
+  flex: 4 0;
+  height: 230px;
+  margin: 2em;
+}
+
+.Price {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+}
+
+.Button {
+  border: none;
+  border-radius: 30em;
+  box-shadow: 6px 6px 12px #c5c5c5 , -6px -6px 12px white;
+  font-family: inherit;
+  font-size: 15px;
+  height: 3em;
+  overflow: hidden;
+  position: relative;
+  width: 13em;
+  z-index: 1;
+}
+
+.Button:before {
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  border-radius: 30em;
+  content: '';
+  display: block;
+  height: 3em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.5s ease;
+  width: 0;
+  z-index: -1;
+}
+
+.Button:hover:before {
+  width: 13em;
+}
+
+.FreeShippingTag {
+  bottom: 1em;
+  position: absolute;
+  right: 0.5em;
+  width: 50px;
+}

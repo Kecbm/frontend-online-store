@@ -1,0 +1,47 @@
+.FormInput {
+  color: black;
+}
+
+.BuyerInfoContainer {
+  background-color: rgb(223, 230, 233);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.Form, .FormContainer {
+  display: flex;
+}
+
+.Form {
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.FormContainer {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CheckoutButton {
+  margin: 25px auto;
+}
+
+.BtnSubmit {
+  background-color: #3498db;
+  border: solid 1px #3498db;
+  border-radius: 200px;
+  color: white;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 10px 18px;
+}
+
+.BtnSubmit:disabled {
+  background-color: #7f8c8d;
+  border: solid 1px #7f8c8d;
+}

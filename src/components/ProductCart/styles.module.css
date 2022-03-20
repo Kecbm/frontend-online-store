@@ -1,0 +1,32 @@
+.CartItemContainer {
+  align-items: center;
+  display: flex;
+  gap: 17px;
+}
+
+.CartItemContainer div {
+  flex: 3 0;
+  max-width: 270px;
+}
+
+.CartItemContainer div abbr {
+  align-items: center;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.CartItemContainer img {
+  aspect-ratio: 1 / 1;
+  display: inline-block;
+  flex: 2 0;
+  max-width: 150px;
+}
+
+.Quantity {
+  flex: 1 0;
+}
+
+.Price {
+  flex: 2 0;
+}

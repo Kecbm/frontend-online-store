@@ -1,0 +1,19 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-credit-card" viewBox="0 0 30 28">
+<path d="M27.5 2c1.375 0 2.5 1.125 2.5 2.5v19c0 1.375-1.125 2.5-2.5 2.5h-25c-1.375 0-2.5-1.125-2.5-2.5v-19c0-1.375 1.125-2.5 2.5-2.5h25zM2.5 4c-0.266 0-0.5 0.234-0.5 0.5v3.5h26v-3.5c0-0.266-0.234-0.5-0.5-0.5h-25zM27.5 24c0.266 0 0.5-0.234 0.5-0.5v-9.5h-26v9.5c0 0.266 0.234 0.5 0.5 0.5h25zM4 22v-2h4v2h-4zM10 22v-2h6v2h-6z"></path>
+</symbol>
+<symbol id="icon-creditcard" viewBox="0 0 32 32">
+<path d="M30 4h-28c-1.104 0-2 0.896-2 2v20c0 1.104 0.896 2 2 2h28c1.104 0 2-0.896 2-2v-20c0-1.104-0.896-2-2-2zM3 6h26c0.553 0 1 0.447 1 1v3h-28v-3c0-0.553 0.447-1 1-1zM29 26h-26c-0.553 0-1-0.447-1-1v-9h28v9c0 0.553-0.447 1-1 1z"></path>
+</symbol>
+<symbol id="icon-barcode" viewBox="0 0 32 32">
+<path d="M0 4h4v20h-4zM6 4h2v20h-2zM10 4h2v20h-2zM16 4h2v20h-2zM24 4h2v20h-2zM30 4h2v20h-2zM20 4h1v20h-1zM14 4h1v20h-1zM27 4h1v20h-1zM0 26h2v2h-2zM6 26h2v2h-2zM10 26h2v2h-2zM20 26h2v2h-2zM30 26h2v2h-2zM24 26h4v2h-4zM14 26h4v2h-4z"></path>
+</symbol>
+<symbol id="icon-credit-card1" viewBox="0 0 32 32">
+<path d="M29 4h-26c-1.65 0-3 1.35-3 3v18c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-18c0-1.65-1.35-3-3-3zM3 6h26c0.542 0 1 0.458 1 1v3h-28v-3c0-0.542 0.458-1 1-1zM29 26h-26c-0.542 0-1-0.458-1-1v-9h28v9c0 0.542-0.458 1-1 1zM4 20h2v4h-2zM8 20h2v4h-2zM12 20h2v4h-2z"></path>
+</symbol>
+<symbol id="icon-undo2" viewBox="0 0 32 32">
+<path d="M23.808 32c3.554-6.439 4.153-16.26-9.808-15.932v7.932l-12-12 12-12v7.762c16.718-0.436 18.58 14.757 9.808 24.238z"></path>
+</symbol>
+</defs>
+</svg>
